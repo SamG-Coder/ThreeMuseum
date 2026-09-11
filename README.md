@@ -41,6 +41,8 @@ Open http://127.0.0.1:4173. Three.js is copied locally during installation; the 
 
 ## Director's cut
 
+[Watch or download the two-minute director's cut](media/ThreeMuseum-Directors-Cut.mp4). It includes all 30 installations, a tour of the architecture and demonstrations of the visitor tools, with captions and an original ambient score.
+
 The feature tour uses the actual museum renderer, installed assets and visitor dialogs. Open the museum with `?director` for its camera edit. The capture helper is `tools/record-director.mjs`; it uses Playwright with Microsoft Edge and can render review frames or record using `--record`. Install Playwright in a tools environment and set `PLAYWRIGHT_PACKAGE` to that environment's `package.json`, or install it locally as a development tool. The shot list is in `src/director.js`.
 
 ## Collection and licence
