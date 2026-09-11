@@ -1,0 +1,909 @@
+{
+  "total": 120.09999999999994,
+  "shots": [
+    {
+      "duration": 6,
+      "title": "Small worlds. Deep time.",
+      "detail": "A walkable natural-history museum built with Three.js + Blender MCP.",
+      "from": [
+        16,
+        5.8,
+        43
+      ],
+      "to": [
+        8,
+        4.6,
+        39
+      ],
+      "target": [
+        -4,
+        3,
+        10
+      ]
+    },
+    {
+      "duration": 6,
+      "title": "Eleven spaces. One connected museum.",
+      "detail": "Roof-off architect view reveals the galleries, cases and circulation.",
+      "from": [
+        53,
+        66,
+        57
+      ],
+      "to": [
+        42,
+        62,
+        65
+      ],
+      "target": [
+        0,
+        0,
+        -8
+      ],
+      "roof": false
+    },
+    {
+      "duration": 5,
+      "title": "Take the long view",
+      "detail": "A continuous ramp climbs 2.4 metres to the Deep Time overlook.",
+      "from": [
+        -35.8,
+        2.8,
+        -25
+      ],
+      "to": [
+        -35.8,
+        3.8,
+        -34
+      ],
+      "target": [
+        -21,
+        2,
+        -19
+      ]
+    },
+    {
+      "duration": 4,
+      "title": "A neck across the gallery",
+      "detail": "D01 / Mamenchisaurus · Original interpretive model",
+      "from": [
+        -17.5,
+        1.62,
+        -16
+      ],
+      "to": [
+        -17.463599347297862,
+        1.7000000000000002,
+        -15.581580363172499
+      ],
+      "target": [
+        -24,
+        3.5202730271965263,
+        -15.434528827667236
+      ],
+      "id": "D01",
+      "fov": 78
+    },
+    {
+      "duration": 2.3,
+      "title": "A predator in profile",
+      "detail": "D02 / Tarbosaurus · Original interpretive model",
+      "from": [
+        -5.6,
+        4.2,
+        -10.5
+      ],
+      "to": [
+        -5.495460519409937,
+        4.28,
+        -10.093218121104247
+      ],
+      "target": [
+        -11,
+        2.7129352308809755,
+        -15.100529789924622
+      ],
+      "id": "D02",
+      "fov": 78
+    },
+    {
+      "duration": 2.3,
+      "title": "Armour in bone",
+      "detail": "D03 / Armoured dinosaur · Original interpretive model",
+      "from": [
+        -8,
+        1.62,
+        -30
+      ],
+      "to": [
+        -7.962828146813793,
+        1.7000000000000002,
+        -29.58164817039876
+      ],
+      "target": [
+        -12,
+        1.2706115421140565,
+        -29.644587635993958
+      ],
+      "id": "D03",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "A smaller horned relative",
+      "detail": "D04 / Protoceratops · Original interpretive model",
+      "from": [
+        -24,
+        1.62,
+        4
+      ],
+      "to": [
+        -23.985253317815385,
+        1.7000000000000002,
+        4.419741033691663
+      ],
+      "target": [
+        -28,
+        0.8110358069650829,
+        4.140531241893768
+      ],
+      "id": "D04",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "A trail through stone",
+      "detail": "D05 / Trackway casting · Original interpretive model",
+      "from": [
+        -8,
+        2.6619407254457474,
+        6
+      ],
+      "to": [
+        -8.42,
+        2.7419407254457475,
+        6
+      ],
+      "target": [
+        -8,
+        0.9323779150098562,
+        4
+      ],
+      "id": "D05",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "The shape of a tooth",
+      "detail": "D06 / Comparative teeth · Original interpretive model",
+      "from": [
+        -35.4,
+        2.62,
+        -12
+      ],
+      "to": [
+        -35.39892859143061,
+        2.7,
+        -11.820003188684694
+      ],
+      "target": [
+        -37.08,
+        1.83390841409564,
+        -11.990000009536743
+      ],
+      "id": "D06",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "A different prehistoric giant",
+      "detail": "D07 / Australian megafauna · Original interpretive model",
+      "from": [
+        -23.7,
+        1.62,
+        -32.5
+      ],
+      "to": [
+        -23.737602154483245,
+        1.7000000000000002,
+        -32.08168662706265
+      ],
+      "target": [
+        -28,
+        1.3643720049411057,
+        -32.88652664422989
+      ],
+      "id": "D07",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Bones of a wing",
+      "detail": "D08 / Pterosaur · Original interpretive model",
+      "from": [
+        -14,
+        5,
+        -5
+      ],
+      "to": [
+        -14.038863018784404,
+        5.08,
+        -4.5818018821527735
+      ],
+      "target": [
+        -18,
+        8.232441358268261,
+        -5.371718734502792
+      ],
+      "id": "D08",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Spirals on the overlook",
+      "detail": "D09 / Fossil comparison · Original interpretive model",
+      "from": [
+        -15.997354603510148,
+        5.163142036199569,
+        -37.55324087213421
+      ],
+      "to": [
+        -16.41668405991501,
+        5.243142036199569,
+        -37.52951731862293
+      ],
+      "target": [
+        -16.110323905944824,
+        3.3910000032931564,
+        -39.55004780739546
+      ],
+      "id": "D09",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Wings in variation",
+      "detail": "B01 / Butterfly diversity · Original interpretive model",
+      "from": [
+        6.2,
+        1.62,
+        5.6
+      ],
+      "to": [
+        6.38,
+        1.7000000000000002,
+        5.6
+      ],
+      "target": [
+        6.2,
+        2.073048375546932,
+        8.335936949495226
+      ],
+      "id": "B01",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "The beetle cabinet",
+      "detail": "B02 / Beetle diversity · Original interpretive model",
+      "from": [
+        17,
+        1.62,
+        5.6
+      ],
+      "to": [
+        17.17999873149645,
+        1.7000000000000002,
+        5.600675765986744
+      ],
+      "target": [
+        16.990000009536743,
+        2.1522824689745903,
+        8.263622664753347
+      ],
+      "id": "B02",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Contrasting forms",
+      "detail": "B03 / Insect Hall of Fame theme · Original interpretive model",
+      "from": [
+        12.5,
+        1.62,
+        2.8
+      ],
+      "to": [
+        12.080027277992647,
+        1.7000000000000002,
+        2.8047867285002557
+      ],
+      "target": [
+        12.459999978542328,
+        1.117305587157607,
+        -0.7094779014587402
+      ],
+      "id": "B03",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Three insect body plans",
+      "detail": "B04 / Insect classification · Original interpretive model",
+      "from": [
+        7.099237112058411,
+        2.9377290773391724,
+        -2.668476181923752
+      ],
+      "to": [
+        6.679244177202468,
+        3.0177290773391725,
+        -2.670912299961081
+      ],
+      "target": [
+        7.11083767414093,
+        1.0705910167843102,
+        -4.6684425383806225
+      ],
+      "id": "B04",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "A nest among leaves",
+      "detail": "B05 / Green tree ant colony · Original interpretive model",
+      "from": [
+        25,
+        1.62,
+        -0.5
+      ],
+      "to": [
+        25,
+        1.7000000000000002,
+        -0.9199999999999999
+      ],
+      "target": [
+        28.5,
+        1.619087079167366,
+        -0.5
+      ],
+      "id": "B05",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "The mantid’s folded forelegs",
+      "detail": "B06 / Mantid habitat · Original interpretive model",
+      "from": [
+        33.8,
+        1.62,
+        3.5
+      ],
+      "to": [
+        33.8,
+        1.7000000000000002,
+        3.08
+      ],
+      "target": [
+        36.63817465901375,
+        1.430798099189997,
+        3.5
+      ],
+      "id": "B06",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Below the water surface",
+      "detail": "B07 / Aquatic invertebrates · Original interpretive model",
+      "from": [
+        33.8,
+        1.62,
+        -3.5
+      ],
+      "to": [
+        33.8,
+        1.7000000000000002,
+        -3.92
+      ],
+      "target": [
+        36.631881630420686,
+        1.2456625088118016,
+        -3.5
+      ],
+      "id": "B07",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Life in the litter",
+      "detail": "B08 / Decomposer habitat · Original interpretive model",
+      "from": [
+        24.5,
+        1.62,
+        5
+      ],
+      "to": [
+        24.92,
+        1.7000000000000002,
+        5
+      ],
+      "target": [
+        24.5,
+        0.8529452390968799,
+        7.4634954035282135
+      ],
+      "id": "B08",
+      "fov": 60
+    },
+    {
+      "duration": 4,
+      "title": "Inside the wing cases",
+      "detail": "B09 / Insect body systems · Original interpretive model",
+      "from": [
+        8.7,
+        1.62,
+        -16
+      ],
+      "to": [
+        8.673817178363274,
+        1.7000000000000002,
+        -16.419183086313296
+      ],
+      "target": [
+        12.6,
+        0.7854687824845314,
+        -16.243600010871887
+      ],
+      "id": "B09",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Three ways to examine mouthparts",
+      "detail": "B10 / Insect mouthparts · Original interpretive model",
+      "from": [
+        18.5,
+        1.62,
+        -16.7
+      ],
+      "to": [
+        18.080002042971525,
+        1.7000000000000002,
+        -16.698690003089098
+      ],
+      "target": [
+        18.49131292104721,
+        1.149999999552965,
+        -19.485163371264935
+      ],
+      "id": "B10",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Four stages, four forms",
+      "detail": "B11 / Life cycles · Original interpretive model",
+      "from": [
+        12.8,
+        1.62,
+        -19.6
+      ],
+      "to": [
+        12.620033637038972,
+        1.7000000000000002,
+        -19.603479684264357
+      ],
+      "target": [
+        12.853164720535279,
+        2.1334621012210846,
+        -22.349634928256272
+      ],
+      "id": "B11",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "At the flower",
+      "detail": "B12 / Pollination · Original interpretive model",
+      "from": [
+        7,
+        2.9035400021076203,
+        -17.5
+      ],
+      "to": [
+        6.58,
+        2.9835400021076204,
+        -17.5
+      ],
+      "target": [
+        7,
+        1.129269999563694,
+        -19.5
+      ],
+      "id": "B12",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Two arachnid forms",
+      "detail": "B13 / Arachnid comparison · Original interpretive model",
+      "from": [
+        25.5,
+        1.62,
+        -15.3
+      ],
+      "to": [
+        25.501728660006883,
+        1.7000000000000002,
+        -15.719996442526101
+      ],
+      "target": [
+        28.677600312232972,
+        1.235738777667284,
+        -15.286921340227128
+      ],
+      "id": "B13",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "A close look at a tarantula",
+      "detail": "B14 / Tarantula enclosure · Original interpretive model",
+      "from": [
+        33.8,
+        1.62,
+        -19
+      ],
+      "to": [
+        33.7990548942865,
+        1.7000000000000002,
+        -19.419998936635785
+      ],
+      "target": [
+        36.63298932313919,
+        0.906245083361864,
+        -19.006374955177307
+      ],
+      "id": "B14",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "A spider on silk",
+      "detail": "B15 / Local spider enclosure · Original interpretive model",
+      "from": [
+        33.8,
+        1.62,
+        -11.5
+      ],
+      "to": [
+        33.79937210177317,
+        1.7000000000000002,
+        -11.91999953064714
+      ],
+      "target": [
+        36.629770225286485,
+        1.3956774927675726,
+        -11.504230499267578
+      ],
+      "id": "B15",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Reading a web",
+      "detail": "B16 / Web structures · Original interpretive model",
+      "from": [
+        28.50499999523163,
+        2.094096064567566,
+        -19.60000000488944
+      ],
+      "to": [
+        28.325000328070306,
+        2.174096064567566,
+        -19.600346157764754
+      ],
+      "target": [
+        28.50499999523163,
+        2.094096064567566,
+        -22.400000004889442
+      ],
+      "id": "B16",
+      "fov": 60
+    },
+    {
+      "duration": 4,
+      "title": "The frill and the horns",
+      "detail": "F01 / Triceratops · Smithsonian Institution · CC0",
+      "from": [
+        7.3,
+        1.62,
+        -34.4
+      ],
+      "to": [
+        7.3,
+        1.7000000000000002,
+        -34.82
+      ],
+      "target": [
+        13,
+        1.7017589092254637,
+        -34.4
+      ],
+      "id": "F01",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "From matrix to display",
+      "detail": "F02 / Fossil preparation · Original interpretive model",
+      "from": [
+        12.5,
+        1.62,
+        -40.8
+      ],
+      "to": [
+        12.320310415422792,
+        1.7000000000000002,
+        -40.78943339248053
+      ],
+      "target": [
+        12.410598874092102,
+        2,
+        -42.320303573831914
+      ],
+      "id": "F02",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "A table for comparison",
+      "detail": "L01 / Handling collection · Original interpretive model",
+      "from": [
+        27.986926926060427,
+        2.7730753737688065,
+        18.697083201301435
+      ],
+      "to": [
+        28.40669949026159,
+        2.8530753737688066,
+        18.71090327163335
+      ],
+      "target": [
+        27.921117067337036,
+        0.9945275924354791,
+        20.696000173687935
+      ],
+      "id": "L01",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "The microscope station",
+      "detail": "L02 / Microscope station · Original interpretive model",
+      "from": [
+        32.975407990733146,
+        3.3683357405662537,
+        25.50960420128367
+      ],
+      "to": [
+        32.98389110783773,
+        3.448335740566254,
+        25.089689880589326
+      ],
+      "target": [
+        34.974999994039536,
+        1.271667870339006,
+        25.549999997019768
+      ],
+      "id": "L02",
+      "fov": 60
+    },
+    {
+      "duration": 2.3,
+      "title": "Tree ferns in the court",
+      "detail": "C01 / Botanical installation · Original interpretive model",
+      "from": [
+        2.6,
+        1.62,
+        -12
+      ],
+      "to": [
+        2.6162578470106594,
+        1.7000000000000002,
+        -11.580314781758306
+      ],
+      "target": [
+        0.018570750951766968,
+        3.124253820348531,
+        -11.900000095367432
+      ],
+      "id": "C01",
+      "fov": 60
+    },
+    {
+      "duration": 4,
+      "title": "Find your next discovery",
+      "detail": "The map offers direct room destinations and a measured design atlas.",
+      "from": [
+        0,
+        2,
+        20
+      ],
+      "to": [
+        0,
+        2,
+        20
+      ],
+      "target": [
+        0,
+        2,
+        0
+      ],
+      "dialog": "mapDialog"
+    },
+    {
+      "duration": 4,
+      "title": "Make yourself comfortable",
+      "detail": "Field of view, walking speed, sensitivity, eye height and graphics controls.",
+      "from": [
+        0,
+        2,
+        20
+      ],
+      "to": [
+        0,
+        2,
+        20
+      ],
+      "target": [
+        0,
+        2,
+        0
+      ],
+      "dialog": "settingsDialog"
+    },
+    {
+      "duration": 5,
+      "title": "A museum you can keep building",
+      "detail": "Preview GLBs, adjust transforms, fit envelopes and export the installation manifest.",
+      "from": [
+        -17.5,
+        2,
+        -16
+      ],
+      "to": [
+        -17.5,
+        2,
+        -16
+      ],
+      "target": [
+        -24,
+        3,
+        -16
+      ],
+      "dialog": "installDialog",
+      "argument": "D01",
+      "guides": true
+    },
+    {
+      "duration": 4,
+      "title": "Read the evidence",
+      "detail": "Visitor cards describe each installation and distinguish original studies from CC0 source material.",
+      "from": [
+        7.3,
+        2,
+        -34.4
+      ],
+      "to": [
+        7.3,
+        2,
+        -34.4
+      ],
+      "target": [
+        13,
+        1.7,
+        -34.4
+      ],
+      "dialog": "showExhibit",
+      "argument": {
+        "id": "F01",
+        "room": "feature",
+        "title": "The last giants",
+        "subject": "Triceratops",
+        "kind": "plinth",
+        "position": [
+          13,
+          0.3,
+          -34.4
+        ],
+        "envelope": [
+          6.5,
+          5,
+          11
+        ],
+        "view": [
+          7.3,
+          0,
+          -34.4
+        ],
+        "source": "S4",
+        "brief": "The feature-gallery mount with a full walk-around route. Inspired by the idea of Melbourne’s Triceratops gallery; this is not a model or reproduction of Horridus.",
+        "url": null,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1,
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "duration": 3,
+      "title": "Room to pause",
+      "detail": "A quiet theatre and visitor lounge complete the journey.",
+      "from": [
+        25,
+        2,
+        -27
+      ],
+      "to": [
+        26,
+        2,
+        -29
+      ],
+      "target": [
+        29.5,
+        2.6,
+        -42.56
+      ]
+    },
+    {
+      "duration": 3,
+      "title": "Built for exploring",
+      "detail": "Keyboard, mouse, drag-to-look and touch controls. Collision-aware walking throughout.",
+      "from": [
+        -24,
+        2,
+        17
+      ],
+      "to": [
+        -25,
+        2,
+        19
+      ],
+      "target": [
+        -29,
+        2,
+        28
+      ]
+    },
+    {
+      "duration": 6,
+      "title": "Open the doors. Make it yours.",
+      "detail": "github.com/SamG-Coder/ThreeMuseum  ·  MIT code + original assets  ·  CC0 Triceratops",
+      "from": [
+        45,
+        60,
+        62
+      ],
+      "to": [
+        52,
+        65,
+        55
+      ],
+      "target": [
+        0,
+        0,
+        -8
+      ],
+      "roof": false
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "D01",
+    "dimensions_xyz": [
+      2.415374755859375,
+      6.400546222925186,
+      25.80905818939209
+    ],
+    "within_envelope": true,
+    "vertices": 75040,
+    "bytes": 3585912
+  },
+  {
+    "id": "D02",
+    "dimensions_xyz": [
+      2.2060508728027344,
+      4.802525758743286,
+      8.416059494018555
+    ],
+    "within_envelope": true,
+    "vertices": 65900,
+    "bytes": 3153344
+  },
+  {
+    "id": "D03",
+    "dimensions_xyz": [
+      2.4804821014404297,
+      1.939203143119812,
+      3.8791751861572266
+    ],
+    "within_envelope": true,
+    "vertices": 62456,
+    "bytes": 2973368
+  },
+  {
+    "id": "D04",
+    "dimensions_xyz": [
+      0.5830955505371094,
+      1.0175625681877136,
+      2.063887596130371
+    ],
+    "within_envelope": true,
+    "vertices": 62942,
+    "bytes": 3008272
+  },
+  {
+    "id": "D05",
+    "dimensions_xyz": [
+      2.6000003814697266,
+      0.05912560224533081,
+      1.6000001430511475
+    ],
+    "within_envelope": true,
+    "vertices": 3025,
+    "bytes": 145144
+  },
+  {
+    "id": "D06",
+    "dimensions_xyz": [
+      0.1999969482421875,
+      0.6325773000717163,
+      2.0799436569213867
+    ],
+    "within_envelope": true,
+    "vertices": 2280,
+    "bytes": 109584
+  },
+  {
+    "id": "D07",
+    "dimensions_xyz": [
+      1.4076881408691406,
+      2.10125595331192,
+      2.4648170471191406
+    ],
+    "within_envelope": true,
+    "vertices": 32008,
+    "bytes": 1530908
+  },
+  {
+    "id": "D08",
+    "dimensions_xyz": [
+      6.016758918762207,
+      2.135117530822754,
+      2.676743507385254
+    ],
+    "within_envelope": true,
+    "vertices": 21968,
+    "bytes": 1053756
+  },
+  {
+    "id": "D09",
+    "dimensions_xyz": [
+      3.437941551208496,
+      0.14428400993347168,
+      0.48370361328125
+    ],
+    "within_envelope": true,
+    "vertices": 45768,
+    "bytes": 2192192
+  },
+  {
+    "id": "B01",
+    "dimensions_xyz": [
+      2.6791563034057617,
+      1.3450969457626343,
+      0.03895378112792969
+    ],
+    "within_envelope": true,
+    "vertices": 91184,
+    "bytes": 4229824
+  },
+  {
+    "id": "B02",
+    "dimensions_xyz": [
+      4.887535095214844,
+      1.4325650930404663,
+      0.15435504913330078
+    ],
+    "within_envelope": true,
+    "vertices": 305288,
+    "bytes": 16936872
+  },
+  {
+    "id": "B03",
+    "dimensions_xyz": [
+      2.6380844116210938,
+      0.37045252323150635,
+      1.4461557865142822
+    ],
+    "within_envelope": true,
+    "vertices": 43376,
+    "bytes": 2045976
+  },
+  {
+    "id": "B04",
+    "dimensions_xyz": [
+      2.546847343444824,
+      0.33427613973617554,
+      1.0072851181030273
+    ],
+    "within_envelope": true,
+    "vertices": 34778,
+    "bytes": 1635388
+  },
+  {
+    "id": "B05",
+    "dimensions_xyz": [
+      3.0031356811523438,
+      1.9648507833480835,
+      2.5380001068115234
+    ],
+    "within_envelope": true,
+    "vertices": 75746,
+    "bytes": 3532940
+  },
+  {
+    "id": "B06",
+    "dimensions_xyz": [
+      1.1907463073730469,
+      1.4870257377624512,
+      2.1619997024536133
+    ],
+    "within_envelope": true,
+    "vertices": 54041,
+    "bytes": 2506956
+  },
+  {
+    "id": "B07",
+    "dimensions_xyz": [
+      1.1430168151855469,
+      1.0726750493049622,
+      2.1619997024536133
+    ],
+    "within_envelope": true,
+    "vertices": 40403,
+    "bytes": 1917548
+  },
+  {
+    "id": "B08",
+    "dimensions_xyz": [
+      2.6277427673339844,
+      0.3323163390159607,
+      1.0600090026855469
+    ],
+    "within_envelope": true,
+    "vertices": 23252,
+    "bytes": 1096932
+  },
+  {
+    "id": "B09",
+    "dimensions_xyz": [
+      3.2832279205322266,
+      0.8279008865356445,
+      2.884000778198242
+    ],
+    "within_envelope": true,
+    "vertices": 22978,
+    "bytes": 1086856
+  },
+  {
+    "id": "B10",
+    "dimensions_xyz": [
+      2.1533756256103516,
+      0.4509999752044678,
+      0.7703266143798828
+    ],
+    "within_envelope": true,
+    "vertices": 6432,
+    "bytes": 308828
+  },
+  {
+    "id": "B11",
+    "dimensions_xyz": [
+      5.011170387268066,
+      0.8469243049621582,
+      0.24793052673339844
+    ],
+    "within_envelope": true,
+    "vertices": 18873,
+    "bytes": 888300
+  },
+  {
+    "id": "B12",
+    "dimensions_xyz": [
+      2.1814846992492676,
+      0.14854001998901367,
+      0.55426025390625
+    ],
+    "within_envelope": true,
+    "vertices": 18270,
+    "bytes": 852824
+  },
+  {
+    "id": "B13",
+    "dimensions_xyz": [
+      2.392301559448242,
+      0.6331281661987305,
+      1.2496662139892578
+    ],
+    "within_envelope": true,
+    "vertices": 8350,
+    "bytes": 399104
+  },
+  {
+    "id": "B14",
+    "dimensions_xyz": [
+      1.1804122924804688,
+      0.4379197359085083,
+      2.1747493743896484
+    ],
+    "within_envelope": true,
+    "vertices": 57336,
+    "bytes": 2658848
+  },
+  {
+    "id": "B15",
+    "dimensions_xyz": [
+      1.1738815307617188,
+      1.4167845249176025,
+      2.170461654663086
+    ],
+    "within_envelope": true,
+    "vertices": 57594,
+    "bytes": 2681016
+  },
+  {
+    "id": "B16",
+    "dimensions_xyz": [
+      3.469999313354492,
+      1.3980704545974731,
+      0.006282806396484375
+    ],
+    "within_envelope": true,
+    "vertices": 8940,
+    "bytes": 429260
+  },
+  {
+    "id": "F01",
+    "dimensions_xyz": [
+      1.6616954803466797,
+      2.803517758846283,
+      5.8914642333984375
+    ],
+    "within_envelope": true,
+    "vertices": 74684,
+    "bytes": 4495172
+  },
+  {
+    "id": "F02",
+    "dimensions_xyz": [
+      3.9211978912353516,
+      1.25,
+      0.22339248657226562
+    ],
+    "within_envelope": true,
+    "vertices": 27217,
+    "bytes": 1306412
+  },
+  {
+    "id": "L01",
+    "dimensions_xyz": [
+      3.424243927001953,
+      0.15709561109542847,
+      0.9833011627197266
+    ],
+    "within_envelope": true,
+    "vertices": 67732,
+    "bytes": 3229844
+  },
+  {
+    "id": "L02",
+    "dimensions_xyz": [
+      1.2299995422363281,
+      0.7933356761932373,
+      0.6999988555908203
+    ],
+    "within_envelope": true,
+    "vertices": 113556,
+    "bytes": 5352048
+  },
+  {
+    "id": "C01",
+    "dimensions_xyz": [
+      1.5692275166511536,
+      5.175630211830139,
+      10.702605247497559
+    ],
+    "within_envelope": true,
+    "vertices": 354168,
+    "bytes": 19795492
+  }
+]

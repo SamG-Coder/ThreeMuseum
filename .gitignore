@@ -1,0 +1,15 @@
+node_modules/
+dist/
+public/vendor/three/
+__pycache__/
+.DS_Store
+*.blend1
+*.blend2
+blender/sources/*
+!blender/sources/smithsonian-triceratops-150k.stl
+docs/validation/blender-mcp.jsonl
+media/raw/
+media/frames/
+*.webm
+.env
+.env.*

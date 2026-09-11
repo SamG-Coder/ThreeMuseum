@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#182b29"><title>ThreeMuseum — Small worlds. Deep time.</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23182b29'/%3E%3Ctext x='32' y='44' text-anchor='middle' fill='%23dcc397' font-size='36' font-family='serif'%3EM%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="./style.css"></head>
+<body>
+ <canvas id="world" aria-label="Walkable museum architecture"></canvas>
+ <div class="scrim"></div>
+ <header><a class="brand" href="./" aria-label="ThreeMuseum home"><span class="brandmark">M<span>3</span></span><span>THREE MUSEUM<small>SMALL WORLDS. DEEP TIME.</small></span></a><nav id="toolbar" hidden><button id="map-button" title="Museum map (M)">Map <kbd>M</kbd></button><button id="mode-button" title="Architect view (V)">Architect <kbd>V</kbd></button><button id="install-button" title="Exhibit installation (B)">Install <kbd>B</kbd></button><button id="settings-button" aria-label="Settings">Settings</button></nav><span id="edition">COLLECTION EDITION <span class="pill">02</span></span></header>
+ <section id="welcome" class="welcome">
+  <p class="eyebrow">NATURAL HISTORY / AN ORIGINAL MUSEUM WORLD</p>
+  <h1>Small worlds.<br><em>Deep time.</em></h1>
+  <p class="intro">Skeletons, small worlds and living forms.<br>A collection made for close looking.</p>
+  <div class="welcome-actions"><button id="enter" class="primary" disabled>Preparing the museum… <span>↗</span></button><button id="plan-entry" class="quiet">Explore the design plan</button></div>
+  <div class="welcome-meta"><span><b>11</b> connected spaces</span><span><b>30</b> exhibit positions</span><span><b id="specimen-count">0</b> installations loaded</span></div>
+  <p id="loading-status" role="status">Loading the architecture and visitor controls.</p>
+  <p class="reference">Inspired by Melbourne Museum. An independent design, not an exact replica or official museum experience.</p>
+ </section>
+ <aside id="location-card" hidden><span class="eyebrow" id="location-tag">WELCOME</span><h2 id="location-name">Arrival hall</h2><span id="mode-label">VISITOR / GROUND LEVEL</span></aside>
+ <button id="interact-prompt" hidden><kbd>E</kbd><span>Explore this exhibit</span></button>
+ <div id="crosshair" hidden></div>
+ <aside id="mini-map" hidden><canvas id="minimap-canvas" width="224" height="248" aria-label="Your position in the museum"></canvas><span>N ↑ <b id="coords">0.0 / 0.0</b></span></aside>
+ <footer id="controls" hidden><span><kbd>W A S D</kbd> Walk</span><span><kbd>Mouse</kbd> Look</span><span><kbd>Shift</kbd> Brisk walk</span><span><kbd>Esc</kbd> Release mouse</span><span class="muted" id="performance"></span></footer>
+ <div id="touch-controls" hidden><div id="joystick" aria-label="Touch movement joystick"><div id="joystick-thumb"></div></div><button id="touch-interact" aria-label="Read nearby exhibit">Read</button><span>Drag the view to look around</span></div>
+ <div id="toast" role="status" hidden></div>
+ <dialog id="modal"><div class="dialog-head"><div><p class="eyebrow" id="dialog-tag">THREE MUSEUM</p><h2 id="dialog-title">Museum map</h2></div><button id="close-modal" class="close" aria-label="Close dialog">×</button></div><div id="dialog-body"></div></dialog>
+ <script type="module">
+  const status=document.getElementById('loading-status');
+  document.getElementById('plan-entry').onclick=()=>window.open('./public/plans/index.html','_blank','noopener');
+  if(location.protocol==='file:'){status.textContent='Open START.bat, or run npm start, then visit http://localhost:4173. Browsers cannot load this world through file://.';}
+  else{
+   let base='https://cdn.jsdelivr.net/npm/three@0.180.0/';
+   try{const r=await fetch('./public/vendor/three/build/three.module.js',{method:'HEAD'});if(r.ok){base=new URL('./public/vendor/three/',location.href).href;status.textContent='Using the locally installed Three.js engine.';}else status.textContent='Loading Three.js from the CDN. Run npm install once for offline use.';}catch{}
+   const map=document.createElement('script');map.type='importmap';map.textContent=JSON.stringify({imports:{three:base+'build/three.module.js','three/addons/':base+'examples/jsm/'}});document.head.append(map);
+   try{await import('./src/main.js');}catch(e){console.error(e);status.textContent='The 3D engine could not start. Run npm install, then npm start. A WebGL 2-capable browser is required. '+e.message;document.getElementById('enter').textContent='3D engine unavailable';}
+  }
+ </script>
+</body></html>
+

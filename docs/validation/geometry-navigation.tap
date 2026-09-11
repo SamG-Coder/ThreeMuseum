@@ -1,0 +1,146 @@
+
+> three-museum@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: Architecture is deterministic; IDs and dimensions are valid
+ok 1 - Architecture is deterministic; IDs and dimensions are valid
+  ---
+  duration_ms: 7.892337
+  type: 'test'
+  ...
+# Subtest: 30 unique empty exhibit slots; no animal or fossil geometry in manifest
+ok 2 - 30 unique empty exhibit slots; no animal or fossil geometry in manifest
+  ---
+  duration_ms: 0.328264
+  type: 'test'
+  ...
+# Subtest: All eleven room entrance spawns are unobstructed
+ok 3 - All eleven room entrance spawns are unobstructed
+  ---
+  duration_ms: 0.414694
+  type: 'test'
+  ...
+# Subtest: Forecourt to arrival is a real eight-metre opening
+ok 4 - Forecourt to arrival is a real eight-metre opening
+  ---
+  duration_ms: 1.755815
+  type: 'test'
+  ...
+# Subtest: Glazed facade blocks walking, including a huge one-frame displacement
+ok 5 - Glazed facade blocks walking, including a huge one-frame displacement
+  ---
+  duration_ms: 0.740466
+  type: 'test'
+  ...
+# Subtest: Central gallery-street path crosses the museum without blocked door gaps
+ok 6 - Central gallery-street path crosses the museum without blocked door gaps
+  ---
+  duration_ms: 2.302197
+  type: 'test'
+  ...
+# Subtest: Main dinosaur entrance is connected to the arrival hall
+ok 7 - Main dinosaur entrance is connected to the arrival hall
+  ---
+  duration_ms: 0.584511
+  type: 'test'
+  ...
+# Subtest: Wall sliding preserves tangential movement
+ok 8 - Wall sliding preserves tangential movement
+  ---
+  duration_ms: 0.35203
+  type: 'test'
+  ...
+# Subtest: Plinth footprints block visitors
+ok 9 - Plinth footprints block visitors
+  ---
+  duration_ms: 0.497129
+  type: 'test'
+  ...
+# Subtest: Split sauropod supports preserve the seven-metre cross passage
+ok 10 - Split sauropod supports preserve the seven-metre cross passage
+  ---
+  duration_ms: 0.797261
+  type: 'test'
+  ...
+# Subtest: Ramp rises continuously through all landings and joins the deck
+ok 11 - Ramp rises continuously through all landings and joins the deck
+  ---
+  duration_ms: 3.88412
+  type: 'test'
+  ...
+# Subtest: Descending the ramp reaches the ground with no teleport or step obstruction
+ok 12 - Descending the ramp reaches the ground with no teleport or step obstruction
+  ---
+  duration_ms: 3.543527
+  type: 'test'
+  ...
+# Subtest: Deck guardrail prevents stepping off the overlook
+ok 13 - Deck guardrail prevents stepping off the overlook
+  ---
+  duration_ms: 0.330167
+  type: 'test'
+  ...
+# Subtest: Ground-floor visitor is not snapped onto the high deck
+ok 14 - Ground-floor visitor is not snapped onto the high deck
+  ---
+  duration_ms: 0.090386
+  type: 'test'
+  ...
+# Subtest: Ramp total rise and slope geometry match the design
+ok 15 - Ramp total rise and slope geometry match the design
+  ---
+  duration_ms: 0.138248
+  type: 'test'
+  ...
+# Subtest: All exhibit reading positions are reachable as safe standing points
+ok 16 - All exhibit reading positions are reachable as safe standing points
+  ---
+  duration_ms: 0.323978
+  type: 'test'
+  ...
+# Subtest: Overlook table base starts on the deck, not on the ground below it
+ok 17 - Overlook table base starts on the deck, not on the ground below it
+  ---
+  duration_ms: 0.112349
+  type: 'test'
+  ...
+# Subtest: Non-finite movement is rejected
+ok 18 - Non-finite movement is rejected
+  ---
+  duration_ms: 0.296176
+  type: 'test'
+  ...
+# Subtest: Vertical overlap test does not collide with a slab under the feet
+ok 19 - Vertical overlap test does not collide with a slab under the feet
+  ---
+  duration_ms: 0.081663
+  type: 'test'
+  ...
+# Subtest: Every segment of the suggested interpretation loop is continuously walkable
+ok 20 - Every segment of the suggested interpretation loop is continuously walkable
+  ---
+  duration_ms: 1.697236
+  type: 'test'
+  ...
+# Subtest: Invalid and off-site teleport positions are rejected
+ok 21 - Invalid and off-site teleport positions are rejected
+  ---
+  duration_ms: 0.081513
+  type: 'test'
+  ...
+# Subtest: Diversity and habitat front portals are not blocked by wall cabinets
+ok 22 - Diversity and habitat front portals are not blocked by wall cabinets
+  ---
+  duration_ms: 0.320663
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 89.738363

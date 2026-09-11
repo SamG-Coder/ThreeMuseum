@@ -1,0 +1,15 @@
+{
+  "/": 200,
+  "/src/main.js": 200,
+  "/public/architecture.json": 200,
+  "/public/exhibits.json": 200,
+  "/public/plans/index.html": 200,
+  "/public/plans/ground-floor.svg": 200,
+  "/public/plans/ThreeMuseum_Design_Plan.pdf": 200,
+  "/public/vendor/three/build/three.module.js": 404,
+  "/missing.glb": 404,
+  "/.gitignore": 403,
+  "POST /": 405,
+  "static atlas layout": "Embedded static HTML/SVG: 30 cards, 11 room rows, 3 loaded vector plans; no horizontal overflow at 1440px or 390px",
+  "live browser world": "NOT RUN: Three.js dependency unavailable; managed browser blocks network navigation including localhost"
+}
