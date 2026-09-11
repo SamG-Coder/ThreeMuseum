@@ -4,6 +4,12 @@
 
 An independent design inspired by Melbourne Museum, not an official museum experience or an exact replica.
 
+**[Explore the live museum →](https://samg-coder.github.io/ThreeMuseum/)**
+
+[![The Smithsonian Triceratops installation in ThreeMuseum’s Last Giants gallery](media/museum-screenshot.jpg)](https://samg-coder.github.io/ThreeMuseum/)
+
+*In-browser view of the Last Giants gallery. Triceratops model: Smithsonian Institution, CC0.*
+
 ## Run locally
 
 Requires Node.js 20 or newer.
@@ -72,7 +78,7 @@ The navigation suite contains 22 checks. All 30 GLBs have been parsed through Th
 
 The renderer uses WebGL 2. Glass and contact shadows are lightweight approximations. Phone, Safari and low-end GPU performance have not been validated. See [validation details](docs/COLLECTION_VALIDATION.md). Older architectural handoff reports in `docs/` describe the initial empty-shell stage and are retained as design history.
 
-The static build uses relative paths. A GitHub Pages workflow is supplied; use GitHub Actions as the Pages source when deploying.
+The static build uses relative paths. GitHub Pages deploys automatically from `main` through the included Actions workflow. It can also be run manually from the Actions tab.
 
 ## Source map
 

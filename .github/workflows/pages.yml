@@ -1,5 +1,7 @@
 name: Publish ThreeMuseum
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,7 +21,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm install
+      - run: npm ci
       - run: npm test
       - run: npm run build
       - uses: actions/configure-pages@v5
